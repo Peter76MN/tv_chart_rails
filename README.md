@@ -4,7 +4,7 @@
 
 ## Description
 
-This gem provides a simple way to use TradingView Chart Library for Ruby on Rails projects.
+This gem provides a simple way to use [TradingView](https://tradingview.com) Chart Library for Ruby on Rails projects.
 
 ## Installation
 
@@ -29,7 +29,7 @@ first of all, ensure your app include jquery.
 
 add `<%= javascript_include_tag 'trading_view_chart' %>` to the template where need to insert tradingview chart.
 
-use showTradingViewChart() to initialize a chart
+use `showTradingViewChart()` to initialize a chart
 ```ruby
 <script type="text/javascript">
   showTradingViewChart();
