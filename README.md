@@ -27,7 +27,7 @@ Or install it yourself as:
 
 first of all, ensure your app include jquery.
 
-add `<%= javascript_include_tag 'trading_view_chart'` to the template where need to insert tradingview chart.
+add `<%= javascript_include_tag 'trading_view_chart' %>` to the template where need to insert tradingview chart.
 
 use showTradingViewChart() to initialize a chart
 ```ruby
