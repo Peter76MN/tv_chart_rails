@@ -4,7 +4,7 @@
 
 ## Description
 
-This gem provides a simple way to use [TradingView](https://tradingview.com) Chart Library for Ruby on Rails application.
+This gem provides a simple way to use [TradingView](http://tradingview.com) Chart Library for Ruby on Rails application.
 
 ## Installation
 
