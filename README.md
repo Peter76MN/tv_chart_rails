@@ -35,15 +35,22 @@ use `showTradingViewChart()` to initialize a chart
 </script>
 ```
 you can find default params in `tv_chart/vendor/javascripts/trading_view_chart.js`
-initialize your chart by sending hash params to `showTradingViewChart()`. It will overwrite the default params.
+
+initialize your chart by sending hash params to `showTradingViewChart()`.
+
+It will overwrite the default params.
 
 put this line to your html page where you want to insert chart.
+
 `<div id="tv_chart_container"></div>`
 
 you can change the id with hash params.
+
 eg. 
+
 `showTradingViewChart({ container_id: 'my_own_chart' })`
 then 
+
 `<div id="my_own_chart"></div>`
 
 if you want to use your own datafeed.js, you can replace it at `tv_chart/vendor/javascritps/charting_library/datafeed/datafeed.js`
