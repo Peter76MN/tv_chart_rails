@@ -1,7 +1,6 @@
 # TradingView Chart Library Rails Gem
 #### version : 1.1.0
 #### date : Dec. 26,2014
-#### author : bob
 
 ## Description
 
