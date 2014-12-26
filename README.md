@@ -4,7 +4,7 @@
 
 ## Description
 
-This gem provides a simple way to use [TradingView](https://tradingview.com) Chart Library for Ruby on Rails projects.
+This gem provides a simple way to use [TradingView](https://tradingview.com) Chart Library for Ruby on Rails application.
 
 ## Installation
 
@@ -20,8 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install tv_chart
-
+    $ gem install tv_chart_rails
 
 ## Usage
 
@@ -36,7 +35,7 @@ use `showTradingViewChart()` to initialize a chart
 </script>
 ```
 you can find default params in `tv_chart/vendor/javascripts/trading_view_chart.js`
-initialize your chart by sending hash params to showTradingViewChart(). It will overwrite the default params.
+initialize your chart by sending hash params to `showTradingViewChart()`. It will overwrite the default params.
 
 put this line to your html page where you want to insert chart.
 `<div id="tv_chart_container"></div>`
