@@ -11,7 +11,7 @@ This gem provides a simple way to use [TradingView](https://tradingview.com) Cha
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tv_chart', :git => 'git@github.com:bobstar6/tv_chart_rails.git'
+gem 'tv_chart_rails', :git => 'git@github.com:bobstar6/tv_chart_rails.git'
 ```
 
 And then execute:
