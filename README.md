@@ -24,29 +24,34 @@ Or install it yourself as:
 
 ## Usage
 
-first of all, ensure your app include jquery.
+1. First of all, ensure your app include jquery.
 
-add `<%= javascript_include_tag 'trading_view_chart' %>` to the template where need to insert tradingview chart.
+2. Add `<%= javascript_include_tag 'trading_view_chart' %>` to the template where need to insert tradingview chart.
 
-use `showTradingViewChart()` to initialize a chart
-```ruby
-<script type="text/javascript">
-  showTradingViewChart();
-</script>
-```
-you can find default params in `tv_chart/vendor/javascripts/trading_view_chart.js`
-initialize your chart by sending hash params to `showTradingViewChart()`.
-It will overwrite the default params.
+3. Use `showTradingViewChart()` to initialize a chart.
+  
+   ```
+   <script type="text/javascript">
+     showTradingViewChart();
+   </script>
+   ```
+   You can find default params in `tv_chart/vendor/javascripts/trading_view_chart.js`. Initialize your chart by sending hash params to `showTradingViewChart()`. It will overwrite the default params.
 
-put this line to your html page where you want to insert chart.
-`<div id="tv_chart_container"></div>`
-you can change the id with hash params.
-eg. 
-`showTradingViewChart({ container_id: 'my_own_chart' })`
-then add this line
-`<div id="my_own_chart"></div>`
+4. Put this line to your html page where you want to insert chart.
 
-if you want to use your own datafeed.js, you can replace it at `tv_chart/vendor/javascritps/charting_library/datafeed/datafeed.js`
+   `<div id="tv_chart_container"></div>`
+   
+   You can change the id with hash params.
+   
+   eg. 
+
+   `showTradingViewChart({ container_id: 'my_own_chart' })`
+
+   then add this line
+   
+   `<div id="my_own_chart"></div>`
+
+5. If you want to use your own datafeed.js, you can replace it at `tv_chart/vendor/javascritps/charting_library/datafeed/datafeed.js`
 
 ## Note
 
